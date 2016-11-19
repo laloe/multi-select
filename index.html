@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Ejemplo de multi-select</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="libs/angular.min.js" charset="utf-8"></script>
+</head>
+<body ng-controller="SelectCtrl as $ctrl">
+  <h4 class="text-center" style="color: #0aa89e; margin-top:5px;">Selección General</h4>
+  <multi-select options="$ctrl.options"></multi-select>
+</body>
+<script src="dist/js/multi-select.js" charset="utf-8"></script>
+<script src="app.js" charset="utf-8"></script>
+</html>
